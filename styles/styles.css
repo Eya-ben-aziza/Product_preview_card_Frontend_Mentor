@@ -21,15 +21,82 @@ body {
     width: 80vh;
     height: 90vh;
     background-color: white;
+    border-radius: 5%;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* gap: 0.1vh; */
 }
 
 img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+}
+
+.subBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 5vh;
+
+}
+
+.perfume {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(228, 12%, 48%);
+
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "SOFT" 0,
+      "WONK" 0;
+}
+
+
+button { 
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 90%;
+    height: 40%;
+    border-radius: 5%;
+    
+}
+
+/* desktop */
+
+@media (min-width: 48em) {
+    .block {
+        height: 60vh;
+    }
+    
+}
+
+@media (min-width: 64em) {
+    
+    .block {
+        flex-direction: row;
+        height: 60vh;
+        
+    }
+    .subBlock{
+        gap: 15px;
+    }
+
+    img {
+        width: 50%;
+        border-bottom-left-radius:5% ;
+        border-top-right-radius:0% ;
+    }
 
 }
