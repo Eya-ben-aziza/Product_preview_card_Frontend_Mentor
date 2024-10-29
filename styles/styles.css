@@ -18,7 +18,7 @@ body {
 /* mobile first approach */
 
 .block {
-    width: 80%;
+    width: 90%;
     height: 90%;
     background-color: white;
     border-radius: 5%;
@@ -54,7 +54,7 @@ img {
 h1 {
     font-family: "Fraunces", serif;
     /* font-optical-sizing: auto; */
-    font-weight: 900;
+    font-weight: 700;
     font-style: normal;
    
 }
@@ -82,9 +82,16 @@ p {
 }
 
 .custom-button { 
+    display: flex;
+    flex-direction: row;
     background-color: hsl(158, 36%, 37%);
     color: white;
     border-color: hsl(158, 36%, 37%);
+    font-weight: 600;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 
@@ -109,10 +116,6 @@ p {
 
     .perfume {
         font-weight: 300;
-    }
-
-    h1 {
-        font-weight: 700;
     }
 
     .prices {
@@ -151,6 +154,8 @@ p {
     }
 
 
-
+    h1 {
+        font-weight: 900;
+    }
 
 }
