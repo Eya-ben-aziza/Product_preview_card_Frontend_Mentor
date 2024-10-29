@@ -54,7 +54,7 @@ img {
 h1 {
     font-family: "Fraunces", serif;
     /* font-optical-sizing: auto; */
-    font-weight: 700;
+    font-weight: 900;
     font-style: normal;
    
 }
@@ -72,8 +72,9 @@ p {
 
 .price1 {
     color: hsl(158, 36%, 37%);
-    font-size: x-large;
+    font-size: xx-large;
     font-family: "Montserrat", serif;
+    
 }
 
 .price2 {
@@ -83,6 +84,7 @@ p {
 .custom-button { 
     background-color: hsl(158, 36%, 37%);
     color: white;
+    border-color: hsl(158, 36%, 37%);
     
 }
 
